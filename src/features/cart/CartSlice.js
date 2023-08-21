@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { fetchCount } from './ProductsListAPI';
+import { fetchCount } from './CartAPI';
 
 const initialState = {
   value: 0,
