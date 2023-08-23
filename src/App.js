@@ -1,15 +1,12 @@
 import * as React from "react";
 import Home from "./Pages/Home";
 import LoginPage from "./Pages/LoginPage";
-import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import SignupPage from "./Pages/SignupPage";
-import Cart from "./features/cart/Cart";
 import CartPage from "./Pages/CartPage";
 import Checkout from "./Pages/Checkout";
-import ProductOverview from "./Pages/ProductOverview";
-import ProductsDetail from "./features/Products/components/ProductsDetail";
+import ProductDetailsPage from "./Pages/ProductDetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -34,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/product-details",
-    element: <ProductsDetail />,
+    element: <ProductDetailsPage />,
   },
 ]);
 
