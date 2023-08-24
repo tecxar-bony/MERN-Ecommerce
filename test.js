@@ -1921,8 +1921,6 @@ const products = [
   },
 ];
 
-// products.map((p) => {p.brand});
-// console.log(products);
 let a = [...new Set([...products.map((p) => p.category)])];
 a;
 let b = a.map((e) => ({
@@ -1931,4 +1929,4 @@ let b = a.map((e) => ({
   checked: false,
 }));
 
-console.log(b);
+// console.log(b);
