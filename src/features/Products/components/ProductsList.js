@@ -533,8 +533,6 @@ function Pagination({ handelPage, page, setpage, totalItems }) {
                 <span className="sr-only">Previous</span>
                 <ChevronLeftIcon className="h-5 w-5" aria-hidden="true" />
               </div>
-
-
               
               <div
               onClick={()=>handelPage(page<totalPages?page+1:page)}
